@@ -1,4 +1,4 @@
-## Ring Oscillator Measurements Spartan 3E
+# Ring Oscillator Measurements Spartan 3E
 
 We have collected on-chip variability data of nearly 200 Spartan 3E FPGAs (90nm), designed functional prototypes of PUFs,
 analyzed aging effects, and created improved entropy extraction methods. This repository provides access to our measurement data.
@@ -10,7 +10,7 @@ A. Maiti, J. Casarona, L. McHale, P. Schaumont, "A Large Scale Characterization 
 IEEE International Symposium on Hardware-Oriented Security and Trust (HOST 2010), Anaheim, June 2010.
 ~~~
 
-# Data Format
+## Data Format
 
 In each file, there are 512 lines for 512 ROs. Each of the line contains 100 RO frequencies separated by comma. These are 100 samples of the corresponding RO. The frequency values are expressed in MHz.
 
